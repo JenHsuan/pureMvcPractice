@@ -1,9 +1,9 @@
 # pureMvcPractice
 
-###1.Introduction
+### 1.Introduction
 * This is a example which was build by pureMVC, boost and wxwidgets.
 
-###2.System enviroment
+### 2.System enviroment
 * 1.Clone this reposity
 * 2.Create a folder which was called **ThirdParty**
 * 3.Setting wxWidgets library:
