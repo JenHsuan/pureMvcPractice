@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="View">
+      <UniqueIdentifier>{fbac74b4-6fa2-4920-bba8-ca3a83252fee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="View\AppEntry.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainWindow.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainWindowPanel.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="View\AppEntry.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainWindow.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainWindowPanel.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
