@@ -15,6 +15,8 @@ MainWindow::MainWindow(const wxString& title)
   hbox->Add(m_rp, 1, wxEXPAND | wxALL, 5);
  
   m_parent->SetSizer(hbox);
+
  
   this->Centre();
 }
+MainWindow::~MainWindow(){};

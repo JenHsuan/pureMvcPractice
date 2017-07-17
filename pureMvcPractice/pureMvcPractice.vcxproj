@@ -11,15 +11,31 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Controller\BasicCommand.cpp" />
+    <ClCompile Include="Controller\OnValueCommand.cpp" />
+    <ClCompile Include="Controller\RefreshWindowCommand.cpp" />
+    <ClCompile Include="Controller\StartUpCommand.cpp" />
     <ClCompile Include="Facade\ApplicationFacade.cpp" />
+    <ClCompile Include="Model\ValueContainer.cpp" />
+    <ClCompile Include="Proxy\MainProxy.cpp" />
     <ClCompile Include="View\AppEntry.cpp" />
     <ClCompile Include="View\MainWindow.cpp" />
+    <ClCompile Include="View\MainWindowMediator.cpp" />
     <ClCompile Include="View\MainWindowPanel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Controller\BasicCommand.h" />
+    <ClInclude Include="Controller\OnValueCommand.h" />
+    <ClInclude Include="Controller\RefreshWindowCommand.h" />
+    <ClInclude Include="Controller\StartUpCommand.h" />
     <ClInclude Include="Facade\ApplicationFacade.h" />
+    <ClInclude Include="Model\GenericFunction.h" />
+    <ClInclude Include="Model\ValueContainer.h" />
+    <ClInclude Include="Proxy\MainProxy.h" />
     <ClInclude Include="View\AppEntry.h" />
+    <ClInclude Include="View\Delegate.h" />
     <ClInclude Include="View\MainWindow.h" />
+    <ClInclude Include="View\MainWindowMediator.h" />
     <ClInclude Include="View\MainWindowPanel.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -60,7 +76,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)thirdParty\boost_1_64_0;$(SolutionDir)thirdParty\pureMVC\include;$(SolutionDir)thirdParty\wxWidgets\include;$(SolutionDir)thirdParty\wxWidgets\include\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

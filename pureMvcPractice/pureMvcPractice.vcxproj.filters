@@ -7,6 +7,21 @@
     <Filter Include="Facade">
       <UniqueIdentifier>{9bb19bb1-e650-45fe-a7a4-37032bbd433f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{4f3e04ef-a3b5-4bcf-8f64-d9d3667765fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{6c354259-844d-4658-a4a1-9f35b0371fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Processor">
+      <UniqueIdentifier>{fdbd61c8-f4d0-4bdd-8342-e33b6358f258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{1e95d157-52bc-4f21-928a-6df160e8fa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Data">
+      <UniqueIdentifier>{77f5a56f-e993-4167-a825-606535d66233}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="View\AppEntry.cpp">
@@ -21,6 +36,27 @@
     <ClCompile Include="Facade\ApplicationFacade.cpp">
       <Filter>Facade</Filter>
     </ClCompile>
+    <ClCompile Include="Controller\StartUpCommand.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\BasicCommand.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainWindowMediator.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy\MainProxy.cpp">
+      <Filter>Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\OnValueCommand.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\RefreshWindowCommand.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\ValueContainer.cpp">
+      <Filter>Model\Data</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="View\AppEntry.h">
@@ -34,6 +70,33 @@
     </ClInclude>
     <ClInclude Include="Facade\ApplicationFacade.h">
       <Filter>Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\StartUpCommand.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\BasicCommand.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainWindowMediator.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\GenericFunction.h">
+      <Filter>Model\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\MainProxy.h">
+      <Filter>Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Delegate.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\OnValueCommand.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\RefreshWindowCommand.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\ValueContainer.h">
+      <Filter>Model\Data</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

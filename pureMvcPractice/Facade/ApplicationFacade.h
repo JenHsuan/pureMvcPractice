@@ -17,6 +17,8 @@ public:
 
 	#pragma region MessageNames
     static const std::string START_UP;
+	static const std::string VALUE_CHANGE;
+	static const std::string REFRESH_WINDOW;
 	#pragma endregion MessageNames;
 
 	bool StartUp(MainWindow* aWindow);

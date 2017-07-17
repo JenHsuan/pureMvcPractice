@@ -31,18 +31,19 @@ LeftPanel::LeftPanel(wxPanel * parent)
  
 void LeftPanel::OnPlus(wxCommandEvent & WXUNUSED(event))
 {
-  count++;
- 
-  MainWindow *parent = (MainWindow *) m_parent->GetParent();
-  parent->m_rp->m_text->SetLabel(wxString::Format(wxT("%d"), count));
+	MainWindow *parent = (MainWindow *) m_parent->GetParent();
+	parent->onPlusSender(1);
 }
  
 void LeftPanel::OnMinus(wxCommandEvent & WXUNUSED(event))
 {
-  count--;
+	
+	MainWindow *parent = (MainWindow *) m_parent->GetParent();
+	parent->onPlusSender(-1);
+  /*count--;
  
   MainWindow *parent = (MainWindow *) m_parent->GetParent();
-  parent->m_rp->m_text->SetLabel(wxString::Format(wxT("%d"), count));
+  parent->m_rp->m_text->SetLabel(wxString::Format(wxT("%d"), count));*/
 }
  
  
