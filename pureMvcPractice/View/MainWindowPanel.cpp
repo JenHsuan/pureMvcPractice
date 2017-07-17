@@ -10,10 +10,23 @@ LeftPanel::LeftPanel(wxPanel * parent)
       wxPoint(10, 10));
   m_minus = new wxButton(this, ID_MINUS, wxT("-"), 
       wxPoint(10, 60));
-  Connect(ID_PLUS, wxEVT_COMMAND_BUTTON_CLICKED, 
+
+  this->Bind(
+        wxEVT_COMMAND_BUTTON_CLICKED,
+        wxCommandEventHandler(LeftPanel::OnPlus),
+        this,
+        ID_PLUS);
+
+  this->Bind(
+        wxEVT_COMMAND_BUTTON_CLICKED,
+        wxCommandEventHandler(LeftPanel::OnMinus),
+        this,
+        ID_MINUS);
+
+  /*Connect(ID_PLUS, wxEVT_COMMAND_BUTTON_CLICKED, 
       wxCommandEventHandler(LeftPanel::OnPlus));
   Connect(ID_MINUS, wxEVT_COMMAND_BUTTON_CLICKED, 
-      wxCommandEventHandler(LeftPanel::OnMinus));
+      wxCommandEventHandler(LeftPanel::OnMinus));*/
 }
  
 void LeftPanel::OnPlus(wxCommandEvent & WXUNUSED(event))
