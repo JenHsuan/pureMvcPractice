@@ -13,3 +13,4 @@
 * 5.Setting boost library:
   * http://www.boost.org/doc/libs/1_36_0/more/getting_started/windows.html
 * 6.Rebild solution
+![image](https://github.com/JenHsuan/pureMvcPractice/blob/master/preview/review.jpg)
