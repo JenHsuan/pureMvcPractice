@@ -17,4 +17,5 @@
 ### 3.Usage
 * push **+** to plus one to current value
 * push **-** to minus one to current value
+
 ![image](https://github.com/JenHsuan/pureMvcPractice/blob/master/preview/review.jpg)
