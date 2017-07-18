@@ -13,4 +13,8 @@
 * 5.Setting boost library:
   * http://www.boost.org/doc/libs/1_36_0/more/getting_started/windows.html
 * 6.Rebild solution
+
+### 3.Usage
+* push **+** to plus one to current value
+* push **-** to minus one to current value
 ![image](https://github.com/JenHsuan/pureMvcPractice/blob/master/preview/review.jpg)
